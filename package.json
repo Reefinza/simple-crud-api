@@ -1,0 +1,25 @@
+{
+  "name": "employee-simple-crud-api",
+  "version": "1.0.0",
+  "description": "Simple CRUD using employee database with express JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "TZ='UTC+7' node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Rifqy Adwin Hafizsyah",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "pg": "^8.7.3",
+    "uuid": "^8.3.2"
+  }
+}
